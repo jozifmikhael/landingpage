@@ -76,6 +76,41 @@ body{
     color: #e5e7eb;
 }
 
+.info-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px
+}
+
+.info{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    margin-top: 36px;
+}
+
+.info-text{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 100px;
+    max-width: 100px;
+    margin-bottom: 40px;
+}
+
+.info-text img{
+    width: auto;
+    height: 120px;
+}
+
+.info-text img,
+.header img{
+    border: 2px solid #3882f6;
+    border-radius: 10px;
+}
+
 a{
     text-decoration: none;
     color: #e5e7eb;
