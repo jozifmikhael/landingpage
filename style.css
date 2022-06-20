@@ -61,14 +61,13 @@ body{
     color: #f9faf8;
 }
 
-.hero-container button{
+button{
     width: 100px;
     padding: 8px 16px;
     background: #3882f6;
     color: white;
     border-color: transparent;
     border-radius: 8px;
-    flex: 0;
 }
 
 .header p{
@@ -107,6 +106,54 @@ body{
 .header img{
     border: 2px solid #3882f6;
     border-radius: 10px;
+}
+
+.quote-container{
+    background-color: #e5e7eb;
+    padding: 40px 250px;
+    color: #1f2937;
+}
+
+.quote{
+    text-align: center;
+    font-size: 24px;
+}
+
+.quote-author{
+    text-align: right;
+    font-weight: bold;
+}
+
+.parent-banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner{
+    display: flex;
+    background-color: #3882f6;
+    margin: 40px 200px;
+    padding: 46px 50px;
+    max-width: 800px;
+    gap: 100px;
+    border-radius: 8px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.sign-up-text{
+    color: #f9faf8;
+}
+
+.sign-up-bold{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.banner button{
+    border: 2px solid #f9faf8;
 }
 
 a{
