@@ -76,33 +76,31 @@ body{
     color: #e5e7eb;
 }
 
-.info-container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 40px
-}
-
 .info{
     font-size: 36px;
+    text-align: center;
+    margin: 36px 0;
     font-weight: bolder;
     color: #1f2937;
-    margin-top: 36px;
 }
 
 .info-text{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     text-align: center;
-    gap: 100px;
-    max-width: 100px;
-    margin-bottom: 40px;
+    flex-wrap: wrap;
+    margin: 36px 0;
 }
 
 .info-text img{
     width: auto;
     height: 120px;
+}
+
+
+.img-text{
+    max-width: 200px;
+    flex: 1;
 }
 
 .info-text img,
